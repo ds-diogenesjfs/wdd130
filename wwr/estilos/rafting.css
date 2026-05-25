@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--cor-secundaria);
 }
 
 header, footer{
@@ -54,11 +55,16 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.redes-sociais a {text-decoration: none;
+.socialmedia a {text-decoration: none;
 }
-
+.hero article{
+    position: absolute;
+}
 .hero{
     position: relative;
+}
+.hero h1{
+    position: absolute;
 }
 .hero article img {
     float: right;
