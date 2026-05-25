@@ -1,12 +1,11 @@
 :root{
     --cor-primaria: #055a05;
-    --cor-secundaria:#ffffff;
+    --cor-secundaria: #ffffff;
     --cor-destaque1: #264653;
     --cor-destaque2: #38352f;
     --fonte-titulo: "TimeNew Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 } 
-
 * {
     margin: 0;
     padding: 0;
