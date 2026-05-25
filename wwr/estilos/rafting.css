@@ -1,8 +1,8 @@
 :root{
     --cor-primaria: #055a05;
-    --cor-secundaria:#f4a261;
+    --cor-secundaria:#ffffff;
     --cor-destaque1: #264653;
-    --cor-destaque2: #e9c46a;
+    --cor-destaque2: #38352f;
     --fonte-titulo: "TimeNew Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 
@@ -34,6 +34,7 @@ header, main, footer {
 footer img{
     width: 30px;
 }
+
 h1, h2 {
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
@@ -45,7 +46,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 7%;
+    opacity: 75%;
     background-color: var(--cor-destaque1);
     color: #fff;
 }
@@ -68,7 +69,10 @@ nav, p, section, article {
 }
 .hero article img {
     float: right;
-    width: 125px;
+    width: 175px;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 .hero img {
     display: block;
